@@ -26,10 +26,11 @@ To install the Cinema API, you need to follow the below steps:
 To run the Cinema API with Docker, you need to follow the below steps:
 
 1. Ensure that Docker is installed on your system
-2. Clone the repository using `git clone https://github.com/ykopatko/drf-cinema-api.git`
-3. Navigate to the repository directory using `cd drf-cinema-api`
-4. Build the Docker image using `docker-compose build`
-5. Start the Docker container using `docker-compose up`
+2. Clone the repository using `git clone https://github.com/ykopatko/drf-cinema-api.git
+3. Add the .env file to the root of the project. In this file you must specify the values of the environment variables. Use the example which is in the .env.sample file.
+4. Navigate to the repository directory using `cd drf-cinema-api`
+5. Build the Docker image using `docker-compose build`
+6. Start the Docker container using `docker-compose up`
 
 ## Getting Access
 
