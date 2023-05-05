@@ -17,7 +17,7 @@ To install the Cinema API, you need to follow the below steps:
     - `DB_NAME=<your db name>`
     - `DB_USER=<your db user>`
     - `DB_PASSWORD=<your db password>`
-    - `DB_SECRET_KEY=<your secret key>`
+    - `SECRET_KEY=<your secret key>`
 8. Apply migrations to the database using `python manage.py migrate`
 9. Start the server using `python manage.py runserver`
 
